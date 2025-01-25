@@ -10,7 +10,8 @@ export function NavBar(){
                     </a>
                 </div>
 
-                <ion-icon onClick={()=>(expanded = !expanded)} className="inline-flex p-2 text-3xl text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100" name="menu-outline"></ion-icon>
+                {/* <ion-icon onClick={()=>(expanded = !expanded)} className="inline-flex p-2 text-3xl text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100" name="menu-outline"></ion-icon> */}
+                <ion-icon className="inline-flex p-2 text-3xl text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"></ion-icon>
 
                 <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
                     <a href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
